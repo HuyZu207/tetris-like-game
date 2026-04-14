@@ -1,5 +1,8 @@
-import javax.swing.*;
-import java.awt.*;
+package main;
+
+import javax.swing.JPanel;
+import java.awt.Color;
+import java.awt.Dimension;
 
 public class GamePanel extends JPanel implements Runnable {
     public static final int WIDTH=1020;
