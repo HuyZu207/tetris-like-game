@@ -11,7 +11,7 @@ public class gridOutline {
     public static int bottom_y;
 
     public gridOutline() {
-        left_x = (main.GamePanel.WIDTH / 2) - (WIDTH / 2);
+        left_x = (GamePanel.WIDTH / 2) - (WIDTH / 2);
         right_x = left_x + WIDTH;
         top_y = 50;
         bottom_y = top_y + HEIGHT;
